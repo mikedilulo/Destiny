@@ -16,4 +16,8 @@ struct StoryBrain {
     ]
     
     var storyNumber = 0
+    
+    func checkAnswer(userAnswer: String) {
+        
+    }
 }
