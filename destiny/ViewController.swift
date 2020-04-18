@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        storyLabel.text = "You see a fork in the road"
     }
 
     @IBAction func storyChoiceMade(_ sender: Any) {
