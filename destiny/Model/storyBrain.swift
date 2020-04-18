@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct storyBrain {
+struct StoryBrain {
     let story = [
         Story(s: "You see a fork in the road", c1: "Take a left", c2: "Take a right"),
         Story(s: "You see a tiger", c1: "You shout for help", c2: "You play dead"),

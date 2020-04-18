@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var choiceOneButton: UIButton!
     @IBOutlet weak var choiceTwoButton: UIButton!
     
+    var storyBrain = StoryBrain()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
