@@ -21,9 +21,8 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func storyChoiceMade(_ sender: Any) {
-        let userAnswer = sender.currentTitle
-        storyBrain.checkAnswer(userAnswer: userAnswer)
+    @IBAction func storyChoiceMade(_ sender: UIButton) {
+  
     }
     
 }
