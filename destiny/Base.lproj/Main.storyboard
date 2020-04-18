@@ -45,6 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="choiceOneButton" destination="gPT-Wc-2yC" id="oUK-TS-MSn"/>
                         <outlet property="storyLabel" destination="4EB-wy-Ofn" id="rGl-9a-vxW"/>
                     </connections>
                 </viewController>

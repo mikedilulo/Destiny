@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var storyLabel: UILabel!
+    @IBOutlet weak var choiceOneButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
