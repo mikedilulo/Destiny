@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct storyBrain {
+    let story = [
+        Story(s: "You see a fork in the road", c1: "Take a left", c2: "Take a right"),
+        Story(s: "You see a tiger", c1: "You shout for help", c2: "You play dead"),
+        Story(s: "You see a treasure chest", c1: "You open it", c2: "You leave it alone")
+    ]
+    
+    var storyNumber = 0
+}
