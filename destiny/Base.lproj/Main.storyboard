@@ -46,6 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="choiceOneButton" destination="gPT-Wc-2yC" id="oUK-TS-MSn"/>
+                        <outlet property="choiceTwoButton" destination="FfP-wH-PjC" id="7dM-xq-m4H"/>
                         <outlet property="storyLabel" destination="4EB-wy-Ofn" id="rGl-9a-vxW"/>
                     </connections>
                 </viewController>
