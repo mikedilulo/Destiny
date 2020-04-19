@@ -18,4 +18,4 @@ struct StoryBrain {
     var storyNumber = 0
     
     }
-}
+
