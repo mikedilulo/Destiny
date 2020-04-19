@@ -17,5 +17,13 @@ struct StoryBrain {
     
     var storyNumber = 0
     
+    func storyChoices(userAnswer: String) {
+        if userAnswer == "Take a left" {
+            
+        } else {
+            
+        }
+    }
+    
     }
 

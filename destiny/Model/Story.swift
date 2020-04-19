@@ -12,10 +12,7 @@ struct Story {
     let storyText: String
     let choiceOneSelect: String
     let choiceTwoSelect: String
+    let choiceOneDestination: Int
+    let choiceTwoDestination: Int
     
-    init(s: String, c1: String, c2: String) {
-        storyText = s
-        choiceOneSelect = c1
-        choiceTwoSelect = c2
-    }
 }
