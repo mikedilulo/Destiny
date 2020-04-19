@@ -9,20 +9,26 @@
 import Foundation
 
 struct StoryBrain {
-    let story = [
-        Story(s: "You see a fork in the road", c1: "Take a left", c2: "Take a right"),
-        Story(s: "You see a tiger", c1: "You shout for help", c2: "You play dead"),
-        Story(s: "You see a treasure chest", c1: "You open it", c2: "You leave it alone")
+    let stories = [
+    Story(
+        title: "You see a fork in the road",
+        choiceOneSelect: "Take a left", choiceTwoSelect: "Take a right", choiceOneDestination: 2, choiceTwoDestination: 1),
+    Story(
+        title: "You see a tiger",
+        choiceOneSelect: "Play dead", choiceTwoSelect: "Pet it", choiceOneDestination: 2, choiceTwoDestination: 3),
+    Story(
+        title: "You see a treasure chest",
+        choiceOneSelect: "You open it", choiceTwoSelect: "Leave it alone", choiceOneDestination: 2, choiceTwoDestination: 1),
     ]
     
     var storyNumber = 0
     
-    func storyChoices(userAnswer: String) {
-        if userAnswer == "Take a left" {
-            
-        } else {
-            
-        }
+    func getStoryTitle() -> String {
+        return stories[storyNumber].title
+    }
+    
+    func getChoiceOne() -> String {
+        return stories[storyNumber].choiceOneSelect
     }
     
     }
