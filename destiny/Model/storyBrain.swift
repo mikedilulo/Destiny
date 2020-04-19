@@ -31,5 +31,9 @@ struct StoryBrain {
         return stories[storyNumber].choiceOneSelect
     }
     
+    func getChoiceTwo() -> String {
+        return stories[storyNumber].choiceTwoSelect
+    }
+    
     }
 
