@@ -19,13 +19,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        updateUI()
         
     }
 
     @IBAction func storyChoiceMade(_ sender: UIButton) {
-        let userAnswer = sender.currentTitle!
-        storyBrain.storyChoices(userAnswer: userAnswer)
+        
+        storyBrain.nextStory(userChoice: sender.currentTitle!)
+        
+        updateUI()
+    }
+    
+    func updateUI() {
+        storyLabel.text = storyBrain.getStoryTitle()
     }
     
 }
