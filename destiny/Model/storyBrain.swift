@@ -35,5 +35,14 @@ struct StoryBrain {
         return stories[storyNumber].choiceTwoSelect
     }
     
+    mutating func nextStory(userChoice: String) {
+        let currentStory = stories[storyNumber]
+        if userChoice == currentStory.choiceOneSelect {
+            storyNumber = currentStory.choiceOneDestination
+        } else if userChoice == currentStory.choiceTwoSelect {
+            storyNumber = currentStory.choiceTwoDestination
+        }
+    }
+    
     }
 
